@@ -1,0 +1,49 @@
+//////////////////////////5//////////////////
+let string1="environnement"
+string1.indexOf("iron")
+///////////////////////////6////////////////
+let arr=[1,2,3,4]
+arr.pop();
+arr.shift();
+//////////////////////////7/////////////////////////
+
+let isOlEnough=(age)=>{
+if(age>=21){
+ return true;
+}
+else{
+return false
+}
+}
+
+ isOlEnough(18)
+//////////////////////////////////////////////////
+
+
+function isOlEnough=(age)=>{
+if(age>=21){
+ return true;
+}
+else{
+return false
+}
+}
+
+isOlEnough(18)
+
+///////////////////////8////////////////////
+
+function checkage(name,age){
+  if(age>=21){
+  return ('welcome' +name)
+}
+else{
+return ('go home' +name)
+}
+}
+
+checkage("jules",13)
+checkage("aime",50)
+
+
+///////////////////Delete//////////////////////////
